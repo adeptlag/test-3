@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f4ef"><title>BoardBridge | CBSE Class XII</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header><div class="top"><div><div class="brand">BOARDBRIDGE · CLASS XII</div><h1>Make every revision count.</h1><p>Notes, formulae, derivations, practice and official resources in one place.</p></div><span class="tag">CBSE 2026–27</span></div></header>
+<div class="wrap"><div class="layout">
+<aside class="panel side"><b>Subjects</b><div class="subject-list" id="subjectList"></div><hr style="border:0;border-top:1px solid var(--line);margin:16px 0"><label for="find">Search chapters</label><input id="find" placeholder="Search..."><p class="progress" id="overall"></p></aside>
+<main class="panel">
+<div class="row"><div><span class="tag" id="code"></span><h2 id="subjectName" style="margin:7px 0"></h2><p id="marks" style="margin:0"></p></div><div style="min-width:190px"><label for="jump">Jump to chapter</label><select id="jump"></select></div></div>
+<div class="tabs"><button class="tab active" data-tab="chapters">Chapters</button><button class="tab" data-tab="desk">Study desk</button><button class="tab" data-tab="practice">Practice</button><button class="tab" data-tab="progress">My progress</button><button class="tab" data-tab="resources">Resources</button></div>
+<section id="chapters"><div class="chapter-grid" id="chapterGrid"></div></section>
+<section id="desk" class="hidden"><div id="deskBody"></div></section>
+<section id="practice" class="hidden"><div id="practiceBody"></div></section>
+<section id="progress" class="hidden"><h2>My progress</h2><p>Tick a chapter after revising it. Your progress and personal notes stay in this browser.</p><div id="progressBody"></div></section>
+<section id="resources" class="hidden"><h2>Official resources</h2><p>Use the official syllabus and marking schemes to decide what is examinable.</p><div id="resourceList"></div></section>
+<div class="alert"><b>Content status:</b> Physics has chapter-wise starter notes and a small original practice bank. The other subjects have their verified chapter structure and topic checklists, with content to be expanded. PYQs are linked to official CBSE archives rather than copied wholesale. A short sample bank is not a 30–40 question mock.</div>
+</main></div><footer>Independent student project; not affiliated with CBSE or NCERT. Check the current official syllabus and teacher guidance. Progress and personal notes are stored locally in your browser.</footer></div>
+<script src="content.js"></script><script src="app.js"></script>
+</body></html>
